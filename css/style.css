@@ -1,0 +1,60 @@
+
+body{
+  background: linear-gradient(180deg, blue, cyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+input{
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 200px;
+}
+
+label{
+  font-size: large;
+  font-weight: 500;
+}
+
+#btnSenha{
+
+  border-radius: 4px;
+  border: none;
+  background-color: #0000ff;
+  color: #fffccc;
+  cursor: pointer;
+  padding: 5px;
+  width: 150px;
+}
+#btnSenha:hover{
+  background-color: #0000ffc3;
+
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 45
+}
+
+.material-symbols-outlined{
+  position: absolute;
+  margin-left: 180px;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+#on{
+  display: none;
+}
+
+footer{
+    font-size: 15px;
+    color: #fffcccb4;
+}
